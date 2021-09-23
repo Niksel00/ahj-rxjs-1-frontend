@@ -7,7 +7,7 @@ export default class Messages {
     this.parentElement = element;
     this.messagesElement = this.parentElement.querySelector('.messages_list');
     this.counterElement = this.parentElement.querySelector('.messages_counter');
-    this.url = 'https://ahj-rxjs-heroku-1.herokuapp.com';
+    this.url = 'https://ahj-rxjs-heroku.herokuapp.com';
 
     this.parentElement.querySelector('.messages_clear').addEventListener('click', () => this.clearData());
   }
